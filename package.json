@@ -1,0 +1,30 @@
+{
+  "name": "embark-ember-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "embark test"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "embarkjs-connector-web3": "4.0.0",
+    "ember-source": "^3.8.0",
+    "handlebars": "^4.0.5",
+    "todomvc-app-css": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "ember-webpack-loaders": "git+https://github.com/touhonoob/ember-webpack-loaders.git#0.3.0",
+    "hard-source-webpack-plugin": "^0.13.1",
+    "lodash.clonedeep": "^4.5.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6"
+  }
+}

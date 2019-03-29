@@ -1,7 +1,6 @@
 module.exports = {
   // default applies to all environments
   default: {
-    enabled: true,
     available_providers: ["ens"],
     provider: "ens"
   },

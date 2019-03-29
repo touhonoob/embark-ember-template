@@ -1,8 +1,8 @@
 {
   "contracts": ["contracts/**"],
   "app": {
-    "css/app.css": ["app/css/**"],
-    "js/app.js": ["app/js/index.js"],
+    "css/app.css": ["app/styles/**"],
+    "js/app.js": ["app/app.js"],
     "images/": ["app/images/**"],
     "index.html": "app/index.html"
   },
@@ -14,6 +14,7 @@
     "ipfs-api": "17.2.4"
   },
   "plugins": {
+    "embarkjs-connector-web3": {}
   },
   "options": {
     "solc": {
